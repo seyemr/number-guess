@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container p-5">
+        <h1>Sayı Tahmin Oyunu</h1>
+        <p>
+            <span class="min-num"></span> ve <span class="max-num"></span> arasında
+            bir sayı tahmin et
+        </p>
+
+        <div class="d-flex" id="game">
+            <input id="guess-input" type="number" class="form-control" />
+            <button id="guess-btn" class="btn btn-outline-dark text-nowrap">
+                Tahmin Yap
+            </button>
+        </div>
+        <p class="message"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
